@@ -14,10 +14,12 @@ console.log(Math.round(budgetDay));
 expenses = expenses.toLowerCase();  // Приведение к нижниму регистру
 expenses = expenses.split(" ");
 console.log(expenses);
-var a = '';
-for (let i = 0; i < expenses.length; i++) {
+var a = [''];
+for (let i = 0, b = 0; i < expenses.length; i++) {
     if (i % 2 == 0 ) {
-        a += expenses[i];
+        a[i - b] = expenses[i]
+    } else {
+        b++;
     }
 }
-console.log(a);
+ console.log(a);
