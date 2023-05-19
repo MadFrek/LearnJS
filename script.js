@@ -1,9 +1,10 @@
-money = 20000;  // Месячный бюджет
-profit = '5000';  // Фриланс
-expenses = 'Питание: 4000, Проезд: 2000, По приколу: 500';  // Расходы
-purpose = 40000;  // Цель зарабоать
-period = 3;  // Период?
-budgetDay = money / 30;  // Дневной доход
+"use strict";
+let money = 20000;  // Месячный бюджет
+let profit = '5000';  // Фриланс
+let expenses = 'Питание: 4000, Проезд: 2000, По приколу: 500';  // Расходы
+let purpose = 40000;  // Цель зарабоать
+let period = 3;  // Период?
+let budgetDay = money / 30;  // Дневной доход
 console.log(typeof(money));
 console.log(typeof(profit));
 console.log(expenses.length);
