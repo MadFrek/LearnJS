@@ -10,7 +10,6 @@ console.log(expenses.length);
 console.log(`Период равен ${period} месяцев`);
 console.log(`Цель заработать ${purpose} хуёллеров`);
 console.log(Math.round(budgetDay));
-document.write(expenses);
 expenses = expenses.toLowerCase();  // Приведение к нижниму регистру
 for (const symbol of expenses) {
     console.log(symbol);
